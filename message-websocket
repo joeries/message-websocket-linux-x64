@@ -10,6 +10,7 @@
 # Description: message-websocket
 ### END INIT INFO
  
-/usr/local/message-websocket-linux-x64/MessageWebSocket.Server &
+cd /usr/local/message-websocket-linux-x64
+./MessageWebSocket.Server &
  
 exit 0
