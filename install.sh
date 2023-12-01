@@ -1,5 +1,5 @@
-cp message-websocket /etc/init.d/message-websocket
+sudo cp message-websocket /etc/init.d/message-websocket
 cd /etc/init.d
-chmod +x message-websocket
-update-rc.d message-websocket defaults
+sudo chmod +x message-websocket
+sudo update-rc.d message-websocket defaults
 ./message-websocket

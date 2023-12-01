@@ -1,4 +1,4 @@
 cd /etc/init.d
-update-rc.d -f message-websocket remove
-chmod -x message-websocket
-rm message-websocket
+sudo update-rc.d -f message-websocket remove
+sudo chmod -x message-websocket
+sudo rm message-websocket
