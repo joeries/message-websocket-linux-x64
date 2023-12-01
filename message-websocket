@@ -1,0 +1,15 @@
+#!/bin/sh
+ 
+### BEGIN INIT INFO
+# Provides: message-websocket
+# Required-Start: $network $remote_fs $local_fs
+# Required-Stop: $network $remote_fs $local_fs
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: message-websocket
+# Description: message-websocket
+### END INIT INFO
+ 
+./usr/local/message-websocket-linux-x64/MessageWebSocket.Server &
+ 
+exit 0
