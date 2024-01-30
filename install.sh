@@ -1,3 +1,4 @@
+sudo chmod +x MessageWebSocket.Server
 sudo cp message-websocket /etc/init.d/message-websocket
 cd /etc/init.d
 sudo chmod +x message-websocket
